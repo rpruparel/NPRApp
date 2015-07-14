@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <ImageView
+        android:id="@+id/imageViewNPR"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1.02"
+        android:src="@drawable/nprhome" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.39" >
+
+        <Button
+            android:id="@+id/buttonPrograms"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:background="@android:color/black"
+            android:shadowColor="@android:color/background_light"
+            android:text="@string/button_text_programs"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonTopics"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/black"
+            android:shadowColor="@android:color/background_light"
+            android:text="@string/button_text_topics"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.05" >
+
+        <Button
+            android:id="@+id/buttonFavorites"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:background="@android:color/black"
+            android:shadowColor="@android:color/background_light"
+            android:text="@string/button_text_favorites"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonExit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/black"
+            android:shadowColor="@android:color/background_light"
+            android:text="@string/button_text_exit"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Main Activity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="button_text_programs">Programs</string>
+    <string name="button_text_exit">Exit</string>
+    <string name="button_text_favorites">Favorites</string>
+    <string name="button_text_topics">Topics</string>
+    <string name="title_activity_list">List Activity</string>
+    <string name="url_topics">http://api.npr.org/list?id=3002&amp;output=JSON</string>
+    <string name="url_programs">http://api.npr.org/list?id=3004&amp;output=JSON</string>
+    <!--string name="npr_api_key">Provide the NPR Api key here</string-->
+    <string name="title_activity_stories">Stories Activity</string>
+    <string name="title_activity_story">StoryActivity</string>
+    <dimen name="image_dimension">90dp</dimen>
+    <dimen name="title_size">20sp</dimen>
+    <dimen name="padding">10dp</dimen>
+    <string name="menu_clear">Clear Favorites</string>
+
+</resources>
